@@ -43,23 +43,36 @@ h3 {
     color:white;
     background-color:#c8e7ff;
     letter-spacing:10px;
-    
-
     text-align: center;
     text-transform: uppercase;
 
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
 }
-div {
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: lightblue;}
+
+.element{
+
+    
+}
+
+
+    
+
+
+/* div { */
     width: 100px;
     height: 100px;
     background-color: red;
     animation-name: example;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
   }
   
-  @keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
+ 
   }
 
 
