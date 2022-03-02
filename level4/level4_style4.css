@@ -1,0 +1,67 @@
+h3{
+    color:#abc4ff
+
+}
+em{
+    color:#ee6c4d;
+    font-family: 'Damion', cursive;
+    font-size:200px;
+}
+
+div{
+    position:relative;
+    left:70px;
+    /* font-family: 'Oleo Script', cursive; */
+    font-family: 'Mountains of Christmas', cursive;
+    color:#3d5a80;
+    font-size:30px;
+    
+}
+
+p1{
+    background-color: rgb(182, 204, 254);
+    font-size: 45px;
+   
+}
+
+p2{
+    background-color: rgb(204, 219, 253);
+}
+p3{
+    background-color: rgb(171, 196, 255);
+}
+p4{
+    background-color: rgb(226, 234, 252);
+}
+
+.heng{
+    position:relative;
+
+    left:700px;
+    top:10px;
+    color:#7cabec;
+    font-size: 60px;
+    /* background-color: #abc4ff */
+
+}
+.one{
+    color: salmon;
+    display: inline-block;
+    border: 4px #c0d1fa dashed;
+    width:auto;
+    padding:2px;
+    font-size: 20px;
+    text-transform: lowercase;
+
+}
+.last{
+    margin-left:3%;
+    /* line-height: 0.7; */
+    position: relatice;
+    left:650px;
+    bottom:380px;
+    font-size: 100px;
+    color:#fbc4ab;
+    /* font-family: 'Damion', cursive; */
+    font-family: 'Mountains of Christmas', cursive;
+}

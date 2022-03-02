@@ -1,62 +1,61 @@
-em {
-    color:white;
-    background-color:darkblue;
-      
-  }
-  small{
-    border:10px red double;
+.gan{
+    color: rgb(23, 195, 178);
+    border:5px #FFCB77 dotted;
+}
+
+em{
+    color:rgb(254, 109, 115);
     
+}
+ul{
+    color: rgb(43, 19, 19);
+}
+h1{
+    color:rgb(34, 124, 157);
+}
+h3{
+    position:relative;
+    background-color:rgb(23, 195, 178);
+    left:500px;
+    color: white;
+    width:140px;
+    padding:10px
+}
+
+.three{
+    position:relative;
     
-  }
-  
-  strong {
-      border: 2px yellow dotted;
-  }
-  
-  
-  h1 {
-      padding-top: 10px;
-      color: rgba(46, 41, 78);
-      
-  }
-  h3 {
-      width: 1800px;
-      height:25px;
-      padding:5px 0px 0px 0px;
-      
-      color:white;
-      background-color:rgba(46, 41, 78);
-      position: relative;
-      left:30px;
-  
-  }
-  p {
-      color: rgb(73, 81, 117);
-      display: inline;
-  
-  
-  }
-  
-  
-  p3 {
-      background-color: lightblue;
-      float: left;
-      width: 30em;
-      
-    }
-  
-  .one{
-      color: rgb(119, 174, 255);
-      margin-left: 10%;
-      position: absolute;
-      top:500px;
-      left:300px;
-      padding-left:100px;
-      
-      height:auto;
-      width: 2000px;
-  
-      
-  }
+    left: 700px;
+    bottom:440px;
+    color:rgb(34, 124, 157);
+
+
+}
+.four{
+    
+    background-color: white;
+    
+    position:absolute;
+    left:600px;
+    top:500px;
+
+}
+.five{
+    position:absolute;
+    left:750px;
+    top:250px;
+
+}
+
+p{
+    margin-left: 700px;
+    margin-top: -90px;
+    border: 10px #CBB2FE inset;
+    height:20px;
+    width:530px;
+    padding:3px;
+    color: rgb(23, 195, 178);
+}
+
   
   

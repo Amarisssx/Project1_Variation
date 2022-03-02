@@ -39,7 +39,7 @@ h3 {
     border: 5px inset rgb(231, 90, 124);
     background-color: rgb(242, 245, 234);
     color: rgb(44, 54, 63);
-    z-index: 2
+    z-index: 2;
 }
 
 .first{
@@ -47,6 +47,7 @@ h3 {
     position: absolute;
     
     top:150px;
+    
 }
 
 .second{
