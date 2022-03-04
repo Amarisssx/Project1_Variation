@@ -9,9 +9,9 @@ strong {
 }
 
 @keyframes h1 {
-    0% {left: 12px; color: rgba(255, 0, 191, 0.5);}
-    100% {left:-300px;}
     
+    100% {left:-300px;}
+    0% {left: 12px; color: rgba(255, 0, 191, 0.5);}
   }
 
 h1 {
