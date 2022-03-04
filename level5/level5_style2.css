@@ -1,6 +1,6 @@
 em {
     background-color: rgb(255, 212, 0);
-    color: rgb(46, 41, 78);
+    color: rgb(46, 41, 78, );
     
 }
 
@@ -8,20 +8,43 @@ strong {
     background-color: hotpink; 
 }
 
+@keyframes h1 {
+    0% {left: 12px; color: rgba(255, 0, 191, 0.5);}
+    100% {left:-300px;}
+    
+  }
 
 h1 {
-    padding-top: 10px;
+    padding-top: 5px;
 	color: rgba(46, 41, 78);
+    font-size: 100px;
+    position: relative;
+    right:100px;
+    top:0px;
+    
+    animation: h1 1s ease-out forwards infinite alternate-reverse;
+    
     
 }
+/* animation: example 5s linear 2s infinite alternate; */
+@keyframes h3{
+    00%{color:rgb(248, 248, 248);}
+    33%{color:rgb(231, 255, 93);}
+    66%{color:rgb(255, 152, 93);}
+    100%{color:rgb(0, 247, 255);}
+}
+
 h3 {
-    width: 1800px;
+    width: 400px;
     height:25px;
-    padding:5px 0px 0px 0px;
+    padding:2px;
     background-color:rgba(46, 41, 78);
     color:white;
     position: relative;
-    left:30px;
+    left:1000px;
+    bottom:130px;
+    animation: h3 0.3s linear 2s infinite ;
+    
 
 }
 p {
@@ -30,36 +53,59 @@ p {
 
 
 }
-p1{
-    color: salmon;
+p2{
+    
+    border-color: salmon;
     display: inline-block;
 }
 
 
-.headings{
-    border: 2px outset rgb(234, 222, 218);
-    padding: 0px;
-    position:relative;
+@keyframes img{
+    00%{border-color:rgb(255, 0, 0);}
+    50%{border-color:rgb(253, 253, 253);}
+    100%{border-color:rgb(255, 253, 158);}
+}
+img{
+    width:180px;
+    height:100px;
+    opacity: 85%;
+    border:3px dotted;
+    border-radius: 4%;
+    border-color: yellow;
+    animation:img 0.9s linear 2s infinite ;
+    
+}
 
+@keyframes headings{
+    00%{background-color:rgb(255, 185, 185);}
+    100%{background-color:rgb(255, 253, 158);}
+}
+.headings{
+    border: 5px outset rgb(234, 222, 218);
+    padding: 0px;
+    position: fixed;
     width: 10000px;
     height:auto;
-    
     background-color: rgb(242, 245, 234);
     color: rgb(44, 54, 63);
-    z-index: 2
+    z-index: 2;
+    font-family: 'Lobster Two', cursive;
+
+    animation: headings 5s linear 0s infinite alternate;
+
 }
 
 .one{
     margin-left: 5%;
     position: absolute;
-    top:200px;
+    top:300px;
     padding-left:35px;
     padding-top:50px;
     padding-right:10px;
-    padding-bottom:80px;
+    padding-bottom:1000px;
+    font-family: 'Lobster Two', cursive;
 
-
-    background-color: blanchedalmond;
+    background-color: #ffe3e0;
     height:auto;
     width: 200px;
 
@@ -68,14 +114,14 @@ p1{
 .two{
     margin-left: 25%;
     position: absolute;
-    top:200px;
+    top:350px;
     padding-left:35px;
     padding-top:50px;
     padding-right:10px;
-    padding-bottom:80px;
+    padding-bottom:800px;
+    font-family: 'Lobster Two', cursive;
 
-
-    background-color: blanchedalmond;
+    background-color: #fbc3bc;
     height:auto;
     width: 200px;
     
@@ -83,14 +129,14 @@ p1{
 .three{
     margin-left:45%;
     position: absolute;
-    top:200px;
-    padding-left:35px;
+    top:400px;
+    padding-left:25px;
     padding-top:50px;
-    padding-right:10px;
-    padding-bottom:80px;
+    padding-right:20px;
+    padding-bottom:650px;
 
-
-    background-color: blanchedalmond;
+    font-family: 'Lobster Two', cursive;
+    background-color: #f7a399;
     height:auto;
     width: 200px;
     
@@ -98,14 +144,14 @@ p1{
 .four{
     margin-left: 65%;
     position: absolute;
-    top:200px;
+    top:450px;
     padding-left:35px;
     padding-top:50px;
     padding-right:10px;
-    padding-bottom:80px;
+    padding-bottom:350px;
+    font-family: 'Lobster Two', cursive;
 
-
-    background-color: blanchedalmond;
+    background-color: #f38375;
     height:auto;
     width: 200px;
 
@@ -113,28 +159,30 @@ p1{
 .five{
     margin-left: 85%;
     position: absolute;
-    top:200px;
+    top:500px;
     padding-left:35px;
     padding-top:50px;
     padding-right:20px;
-    padding-bottom:80px;
+    padding-bottom:300px;
+    background-color: #fec89a;
+    font-family: 'Lobster Two', cursive;
 
-
-    background-color: blanchedalmond;
+    
     height:auto;
     width: 200px;
 }
 .six{
-    margin-left: 105%;
+    margin-left: 106%;
     position: absolute;
-    top:200px;
+    top:550px;
     padding-left:35px;
     padding-top:50px;
-    padding-right:0px;
-    padding-bottom:80px;
+    padding-right:20px;
+    padding-bottom:10px;
+    background-color: #f9dcc4;
+    font-family: 'Lobster Two', cursive;
 
-
-    background-color: blanchedalmond;
+    
     height:auto;
     width: 200px;
 }

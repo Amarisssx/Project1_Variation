@@ -1,0 +1,63 @@
+#myDIV { border: 1px solid black;
+    width: 300px;
+    color: red;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+   
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {color: blue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {color: blue;}
+}
+
+
+
+
+
+
+
+#para {
+    letter-spacing: 1px;
+    animation: para 2s 1;
+
+}
+
+/* Chrome, Safari, Opera */
+@keyframes para {
+    10% {letter-spacing: 50px;}
+
+}
+
+#name{
+    
+    
+    
+}
+
+@keyframes name{
+    50% {color: lightblue;}
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-delay: 0s;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes example {
+    from {top: 0px; background-color: yellow;}
+    to {top: 200px;}
+
+
+

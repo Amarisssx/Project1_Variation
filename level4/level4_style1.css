@@ -45,8 +45,23 @@ h3 {
     letter-spacing:10px;
     
 
+    /* text-align: center;
+    text-transform: uppercase;
+
+    width: 300px;
+    
+    animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    
+    color:white;
+    background-color:#c8e7ff;
+    letter-spacing:10px;
     text-align: center;
     text-transform: uppercase;
+
+    animation: mymove 5s infinite; */
 
 }
 
