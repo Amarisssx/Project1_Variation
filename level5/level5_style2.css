@@ -11,10 +11,11 @@ strong {
 @keyframes h1 {
     
     100% {left:-300px;}
-    0% {left: 12px; color: rgba(255, 0, 191, 0.5);}
+    0% {left: 12px; color: rgb(113, 64, 153);}
   }
 
 h1 {
+    text-shadow: 1px 1px 2px black, 0 0 30px rgba(255, 238, 0, 0.842), 0 0 5px darkblue;
     padding-top: 5px;
 	color: rgba(46, 41, 78);
     font-size: 100px;
@@ -35,6 +36,8 @@ h1 {
 }
 
 h3 {
+    border-radius: 15px;
+    border:3px rgba(0, 0, 0, 0.212) inset;
     width: 400px;
     height:25px;
     padding:2px;
@@ -61,7 +64,7 @@ p2{
 
 
 @keyframes img{
-    00%{border-color:rgb(255, 0, 0);}
+    00%{border-color:rgb(255, 101, 147);}
     50%{border-color:rgb(253, 253, 253);}
     100%{border-color:rgb(255, 253, 158);}
 }
@@ -69,10 +72,10 @@ img{
     width:180px;
     height:100px;
     opacity: 85%;
-    border:3px dotted;
+    border:4.2px inset;
     border-radius: 4%;
     border-color: yellow;
-    animation:img 0.9s linear 2s infinite ;
+    animation:img 3s ease-in-out 2s infinite alternate-reverse;
     
 }
 
@@ -96,6 +99,10 @@ img{
 }
 
 .one{
+    border-radius: 8px;
+    border:2px rgb(0,0,0,0.1) groove;
+    /* box-shadow: 0px 10px 6px #000000; */
+
     margin-left: 5%;
     position: absolute;
     top:300px;
@@ -112,6 +119,8 @@ img{
 }
 
 .two{
+    border-radius: 8px;
+    border:2px rgb(0,0,0,0.1) groove;
     margin-left: 25%;
     position: absolute;
     top:350px;
@@ -127,6 +136,8 @@ img{
     
 }
 .three{
+    border-radius: 8px;
+    border:2px rgb(0,0,0,0.1) groove;
     margin-left:45%;
     position: absolute;
     top:400px;
@@ -142,13 +153,15 @@ img{
     
 }
 .four{
+    border-radius: 8px;
+    border:2px rgb(0,0,0,0.1) groove;
     margin-left: 65%;
     position: absolute;
     top:450px;
     padding-left:35px;
     padding-top:50px;
     padding-right:10px;
-    padding-bottom:350px;
+    padding-bottom:440px;
     font-family: 'Lobster Two', cursive;
 
     background-color: #f38375;
@@ -157,6 +170,8 @@ img{
 
 }
 .five{
+    border-radius: 8px;
+    border:2px rgb(0,0,0,0.1) groove;
     margin-left: 85%;
     position: absolute;
     top:500px;
@@ -172,13 +187,15 @@ img{
     width: 200px;
 }
 .six{
+    border-radius: 8px;
+    border:2px rgb(0,0,0,0.1) groove;
     margin-left: 106%;
     position: absolute;
     top:550px;
     padding-left:35px;
     padding-top:50px;
     padding-right:20px;
-    padding-bottom:10px;
+    padding-bottom:55px;
     background-color: #f9dcc4;
     font-family: 'Lobster Two', cursive;
 
