@@ -148,3 +148,9 @@ p1{
     height:auto;
     width: 200px;
 }
+
+.link{
+    margin-left: 5%;
+    position: absolute;
+    top:1480px;
+}

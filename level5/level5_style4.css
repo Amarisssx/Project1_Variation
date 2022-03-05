@@ -1,0 +1,161 @@
+
+
+    
+body{
+    background-color: #00002b;
+    /* background-image: linear-gradient(to bottom right, #181063 , #10002b); */
+}
+em {
+    background-color: rgb(255, 212, 0);
+    color: rgb(46, 41, 78, );
+    
+}
+
+strong {
+    background-color: hotpink; 
+}
+
+@keyframes h1 {
+    
+    0% {left: 10px; color: #e0aaff;}
+    25% {left: 260px; color: #e0aaff;}
+    50% {left: 600px; color: #88e6f8;}
+    75% {left: 700px; color: #faffcd;}
+    100% {top: 800px;color: #ffffff;}
+  }
+
+h1 {
+    
+font-family: 'IM Fell Great Primer SC', serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(255, 247, 135, 0.842), 0 0 5px darkblue;
+    padding-top: 5px;
+	color: rgba(46, 41, 78);
+    font-size: 100px;
+    position: relative;
+    right:100px;
+    top:0px;
+    z-index: 3;
+    
+    animation: h1 10s ease-in forwards infinite alternate;
+    
+    
+}
+/* animation: example 5s linear 2s infinite alternate; */
+@keyframes h3{
+    00%{color:rgb(248, 248, 248);}
+    33%{color:rgb(182, 255, 182);}
+    66%{color:rgb(248, 203, 228);}
+    100%{color:rgb(0, 247, 255);}
+}
+
+h3 {
+    font-size: 40px;
+    border-radius: 14px;
+    letter-spacing: 1.8px;
+
+    border:1px rgb(117, 117, 117) inset;
+
+    width: 180px;
+    height:auto;
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    background-color:rgba(46, 41, 78);
+    color:white;
+
+    position: relative;
+    left:1200px;
+    bottom:130px;
+    z-index: 2;
+    
+    font-family: 'IM Fell Great Primer SC', serif;
+    animation: h3 0.3s linear 2s infinite ;
+    
+
+}
+@keyframes p{
+    00%{color:rgb(117, 193, 255);}
+    33%{color:rgb(140, 0, 255);}
+    66%{color:rgb(255, 152, 93);}
+    100%{color:rgb(27, 63, 110);}
+}
+p {
+    animation:p 8s linear infinite alternate-reverse;
+   color: rgb(22, 84, 255);
+    /* display: inline; */
+
+
+}
+@keyframes div {
+        00%{color:rgb(117, 193, 255);}
+        33%{color:rgb(140, 0, 255);}
+        66%{color:rgb(255, 152, 93);}
+        100%{color:rgb(27, 63, 110);}
+    
+}
+div{
+    font-size: larger;
+    color: #131313;
+    
+    
+    border-color: rgb(243, 56, 35);
+    display: inline-block;
+    animation:div 8s linear infinite alternate-reverse;
+}
+
+    
+
+
+@keyframes headings{
+    /* 00%{background-color:rgb(255, 185, 185);} */
+    /* 100%{background-color:rgb(255, 253, 158);} */
+}
+.headings{
+    border: 5px outset rgb(234, 222, 218);
+    padding: 0px;
+    position: fixed;
+    width: 10000px;
+    height:auto;
+    background-color: rgb(242, 245, 234);
+    color: rgb(44, 54, 63);
+    z-index: 2;
+    font-family: 'Lobster Two', cursive;
+
+    animation: headings 5s linear 0s infinite alternate;
+
+}
+
+.one{
+    font-family: 'Lobster Two', cursive;
+    line-height: 1.4;
+    position:absolute;
+    
+    top:20px;
+    left:450px;
+    
+
+}
+
+.two{
+
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 2px;
+    position:relative;
+    top: 100px;
+    left:200px;
+    font-family: 'Lobster Two', cursive;
+
+    
+    
+   
+    
+}
+
+.link{
+    margin-left:5%;
+    position: absolute;
+    top:1550px;
+    right:100px;
+}
