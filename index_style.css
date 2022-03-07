@@ -1,0 +1,55 @@
+body {
+    margin: 18px;
+}
+    
+.two{
+    float:top; 
+    /* position:absolute;
+    top:0%;
+    left:22%; */
+}
+  
+ul {
+    border: 1px rgb(246, 247, 231) inset;
+    font-family: 'Rokkitt', serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+li a {
+    
+    display: block;
+    
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    
+    background-color: rgb(51, 63, 83);
+    color: white;
+  }
+
+p{
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: 'Rokkitt', serif;
+    font-weight: bold;
+    color: rgb(238, 108, 77);
+    text-shadow: 1px 1px 3px rgba(192, 192, 192, 0.466);
+
+    border:#000
+    /* font-family: 'Purple Purse', cursive; */
+    
+}
+h1{
+    font-family: 'Rokkitt', serif;
+}
+main{
+    position:flex;
+}
+div:nth-of-type(1) {flex-grow: 1;}
+div:nth-of-type(2) {flex-grow: 3;}
