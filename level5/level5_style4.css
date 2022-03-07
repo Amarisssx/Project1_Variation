@@ -2,7 +2,15 @@
 
     
 body{
-    background-color: #00002b;
+    background-image: url("https://images.unsplash.com/photo-1573655349936-de6bed86f839?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1020&q=80");
+    background-size: 100%;
+    /* background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%); */
+    /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
+    
+    /* background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%); */
+    /* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
+    /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+    /* background-color: #00002b; */
     /* background-image: linear-gradient(to bottom right, #181063 , #10002b); */
 }
 em {
@@ -30,7 +38,7 @@ font-family: 'IM Fell Great Primer SC', serif;
     text-shadow: 1px 1px 2px black, 0 0 25px rgba(255, 247, 135, 0.842), 0 0 5px darkblue;
     padding-top: 5px;
 	color: rgba(46, 41, 78);
-    font-size: 100px;
+    font-size: 150px;
     position: relative;
     right:100px;
     top:0px;
@@ -41,32 +49,28 @@ font-family: 'IM Fell Great Primer SC', serif;
     
 }
 /* animation: example 5s linear 2s infinite alternate; */
-@keyframes h3{
-    00%{color:rgb(248, 248, 248);}
-    33%{color:rgb(182, 255, 182);}
-    66%{color:rgb(248, 203, 228);}
-    100%{color:rgb(0, 247, 255);}
-}
 
 h3 {
-    font-size: 40px;
+    font-size: 32px;
     border-radius: 14px;
     letter-spacing: 1.8px;
+    text-shadow: 1px 1px 1px #131313;
 
-    border:1px rgb(117, 117, 117) inset;
+    /* border:1px rgb(117, 117, 117) inset;
 
-    width: 180px;
+    width: 300px;
     height:auto;
     padding-left: 25px;
     padding-right: 10px;
     padding-bottom: 5px;
     padding-top: 10px;
     background-color:rgba(46, 41, 78);
-    color:white;
+    color:white; */
 
     position: relative;
-    left:1200px;
-    bottom:130px;
+    left:55%;
+    top: 90%;
+    margin-bottom: 100px;
     z-index: 2;
     
     font-family: 'IM Fell Great Primer SC', serif;
@@ -87,30 +91,8 @@ p {
 
 
 }
-@keyframes div {
-        00%{color:rgb(117, 193, 255);}
-        33%{color:rgb(140, 0, 255);}
-        66%{color:rgb(255, 152, 93);}
-        100%{color:rgb(27, 63, 110);}
-    
-}
-div{
-    font-size: larger;
-    color: #131313;
-    
-    
-    border-color: rgb(243, 56, 35);
-    display: inline-block;
-    animation:div 8s linear infinite alternate-reverse;
-}
 
     
-
-
-@keyframes headings{
-    /* 00%{background-color:rgb(255, 185, 185);} */
-    /* 100%{background-color:rgb(255, 253, 158);} */
-}
 .headings{
     border: 5px outset rgb(234, 222, 218);
     padding: 0px;
@@ -125,27 +107,44 @@ div{
     animation: headings 5s linear 0s infinite alternate;
 
 }
+@keyframes one {
+    00%{color:rgb(255, 196, 0);}
+    33%{color:rgb(140, 0, 255);}
+    66%{color:rgb(14, 12, 11);}
+    100%{color:rgb(4, 102, 230);}}
 
 .one{
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Playball', cursive;
+    font-size: larger;
     line-height: 1.4;
-    position:absolute;
-    
-    top:20px;
-    left:450px;
+    position:sticky;
+    top:230px;
+    bottom:300px;
+   
+    margin-left: 3%;
+
+  
+    animation:one 8s linear infinite alternate-reverse;
     
 
 }
+@keyframes div {
+    00%{color:rgb(68, 18, 12);}
+    33%{color:rgb(84, 5, 148);}
+    66%{color:rgb(9, 41, 26);}
+    100%{color:rgb(4, 102, 230);}}
 
 .two{
 
-    font-size: 30px;
-    line-height: 2;
-    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 1px;
     position:relative;
-    top: 100px;
-    left:200px;
-    font-family: 'Lobster Two', cursive;
+    top: 140px;
+    left:330px;
+    font-family: 'Playball', cursive;
+    animation:div 8s linear infinite alternate-reverse;
+    /* font-family: 'Lobster Two', cursive; */
 
     
     

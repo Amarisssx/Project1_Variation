@@ -1,0 +1,78 @@
+
+
+body{
+    
+    background-image: url("https://images.unsplash.com/photo-1507123948929-86a949bdaa23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3000&q=80");
+    background-size:100% ;  
+
+}
+
+@keyframes headings {
+    50% {text-shadow: 10px 20px 30px blue;}}
+
+.headings{
+    position:sticky;
+    top:100px;
+    animation:  headings 5s infinite;
+
+
+}
+
+
+
+h1{
+    font-size: 140px;
+    text-align: left;
+    position: sticky;
+    top:20%;
+    margin-top: 11%;
+    margin-left: 80%;
+    writing-mode: vertical-lr;
+   
+    font-family: 'Satisfy', cursive;
+    
+    color:#ffdebe;
+    text-shadow: 3px 2px 4px rgb(58, 58, 58);
+    
+    
+}
+@keyframes h3{
+ 50% {text-shadow: -2px 1px 1px rgba(75, 102, 255, 0.8);}   
+ 100% {text-shadow: 2px 1px 1px #ffb66d}    
+}
+
+h3{
+    
+    font-size: 54px;
+    text-align: center;
+    font-family: 'East Sea Dokdo', cursive;
+    position: absolute;
+    left:700px;
+    bottom:0px;
+    animation: h3 2s 5 alternate-reverse;
+
+   
+}
+
+.body{
+    font-family: 'Satisfy', cursive;
+    
+    font-size: 20px;
+    text-align: center;
+
+    width:440px;
+    height:auto;
+
+    position: absolute;
+    left:530px;
+    bottom:180px;
+
+}
+
+.link{
+    position:absolute;
+    top:2280px;
+    margin-left: 2%;
+    z-index: 3;
+    margin-bottom:20%;
+}
