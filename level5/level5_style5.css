@@ -37,8 +37,8 @@ h1{
     
 }
 @keyframes h3{
- 50% {text-shadow: -2px 1px 1px rgba(75, 102, 255, 0.8);}   
- 100% {text-shadow: 2px 1px 1px #ffb66d}    
+    from {left: -300px;}
+    to {left:750px; } 
 }
 
 h3{
@@ -48,12 +48,17 @@ h3{
     font-family: 'East Sea Dokdo', cursive;
     position: absolute;
     left:700px;
-    bottom:0px;
-    animation: h3 2s 5 alternate-reverse;
+    bottom:-10px;
+    animation: h3 2.5s;
+    animation-fill-mode: both;
+    animation-delay: 4s;
 
    
 }
-
+@keyframes one  {
+    from {top: -1000px;}
+    to {top: 300px; }
+}
 .body{
     font-family: 'Satisfy', cursive;
     
@@ -66,7 +71,14 @@ h3{
     position: absolute;
     left:530px;
     bottom:180px;
+    animation: one 2.5s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
 
+}
+
+
+    
 }
 
 .link{

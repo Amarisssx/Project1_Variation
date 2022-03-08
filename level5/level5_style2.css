@@ -11,20 +11,21 @@ strong {
 }
 
 @keyframes h1 {
-    100% {left:-300px;}
-    0% {left: 12px; color: rgb(113, 64, 153);}
+    0% {left: 0px; color: rgb(113, 64, 153);}
+    100% {left:-200px;}
   }
 
 h1 {
-    text-shadow: 1px 1px 2px black, 0 0 30px rgba(255, 238, 0, 0.842), 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 3px rgba(0, 0, 0, 0.842), 0 0 5px darkblue;
     padding-top: 5px;
 	color: rgba(46, 41, 78);
     font-size: 100px;
     position: relative;
-    right:100px;
+    right:60px;
     top:0px;
     
-    animation: h1 1s ease-out forwards infinite alternate-reverse;
+    animation: h1 2s ease-out forwards 3 alternate-reverse;
+    animation-fill-mode: forwards;
     
     
 }
@@ -39,13 +40,13 @@ h1 {
 h3 {
     border-radius: 15px;
     border:3px rgba(0, 0, 0, 0.212) inset;
-    width: 400px;
+    width: 380px;
     height:25px;
     padding:2px;
     background-color:rgba(46, 41, 78);
     color:white;
     position: relative;
-    left:1000px;
+    left:1200px;
     bottom:130px;
     animation: h3 0.3s linear 2s infinite ;
     
@@ -73,7 +74,7 @@ img{
     width:180px;
     height:100px;
     opacity: 85%;
-    border:4.2px inset;
+    border:1px inset;
     border-radius: 4%;
     border-color: yellow;
     animation:img 3s ease-in-out 2s infinite alternate-reverse;
@@ -81,11 +82,13 @@ img{
 }
 
 @keyframes headings{
-    00%{background-color:rgb(255, 185, 185);}
-    100%{background-color:rgb(255, 253, 158);}
+    00%{background-color:rgb(255, 228, 228);}
+    100%{background-color:rgb(255, 255, 234);}
 }
+
 .headings{
-    border: 5px outset rgb(234, 222, 218);
+    border: 1px ridge rgb(234, 222, 218);
+    
     padding: 0px;
     position: fixed;
     width: 10000px;
@@ -98,10 +101,13 @@ img{
     animation: headings 5s linear 0s infinite alternate;
 
 }
-
+@keyframes one {
+    from {top: -1000px;}
+    to {top: 340px; }
+}
 .one{
     border-radius: 8px;
-    border:2px rgb(0,0,0,0.1) groove;
+    border:1px rgb(0,0,0,0.1) groove;
     /* box-shadow: 0px 10px 6px #000000; */
 
     margin-left: 5%;
@@ -116,12 +122,17 @@ img{
     background-color: #ffe3e0;
     height:auto;
     width: 200px;
+    animation: one 3s;
+   animation-fill-mode: forwards;
 
 }
-
+@keyframes two  {
+    from {top: -1000px;}
+    to {top: 340px; }
+}
 .two{
     border-radius: 8px;
-    border:2px rgb(0,0,0,0.1) groove;
+    border:1px rgb(0,0,0,0.1) groove;
     margin-left: 25%;
     position: absolute;
     top:350px;
@@ -134,11 +145,19 @@ img{
     background-color: #fbc3bc;
     height:auto;
     width: 200px;
+    animation: two 2.5s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+
     
+}
+@keyframes three  {
+    from {top: -1000px;}
+    to {top: 340px; }
 }
 .three{
     border-radius: 8px;
-    border:2px rgb(0,0,0,0.1) groove;
+    border:1px rgb(0,0,0,0.1) groove;
     margin-left:45%;
     position: absolute;
     top:400px;
@@ -151,11 +170,18 @@ img{
     background-color: #f7a399;
     height:auto;
     width: 200px;
+    animation: three 2.5s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
     
+}
+@keyframes four  {
+    from {top: -1000px;}
+    to {top: 340px; }
 }
 .four{
     border-radius: 8px;
-    border:2px rgb(0,0,0,0.1) groove;
+    border:1px rgb(0,0,0,0.1) groove;
     margin-left: 65%;
     position: absolute;
     top:450px;
@@ -168,11 +194,18 @@ img{
     background-color: #f38375;
     height:auto;
     width: 200px;
+    animation: four 2.5s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
 
+}
+@keyframes five  {
+    from {top: -1000px;}
+    to {top: 340px; }
 }
 .five{
     border-radius: 8px;
-    border:2px rgb(0,0,0,0.1) groove;
+    border:1px rgb(0,0,0,0.1) groove;
     margin-left: 85%;
     position: absolute;
     top:500px;
@@ -182,14 +215,19 @@ img{
     padding-bottom:300px;
     background-color: #fec89a;
     font-family: 'Lobster Two', cursive;
-
-    
     height:auto;
     width: 200px;
+    animation: five 2.5s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+@keyframes six  {
+    from {top: -1000px;}
+    to {top: 340px; }
 }
 .six{
     border-radius: 8px;
-    border:2px rgb(0,0,0,0.1) groove;
+    border:1px rgb(0,0,0,0.1) groove;
     margin-left: 106%;
     position: absolute;
     top:550px;
@@ -199,10 +237,11 @@ img{
     padding-bottom:55px;
     background-color: #f9dcc4;
     font-family: 'Lobster Two', cursive;
-
-    
     height:auto;
     width: 200px;
+    animation: six 2.5s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
 }
 
 .link{
