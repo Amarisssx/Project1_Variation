@@ -120,10 +120,7 @@ p {
     position:sticky;
     top:230px;
     bottom:300px;
-   
-    margin-left: 3%;
-
-  
+    margin-left: 3%; 
     animation:one 8s linear infinite alternate-reverse;
     
 

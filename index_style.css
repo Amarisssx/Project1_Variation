@@ -21,8 +21,7 @@ ul {
     overflow: auto;
   }
   
-  li a {
-    
+  li a { 
     display: block;
     color: rgba(36, 23, 11, 0.726);
     padding: 8px 16px;
@@ -30,7 +29,6 @@ ul {
   }
   
   li a.active {
-    
     background-color: #e25c09ae;
     color: white;
   }
