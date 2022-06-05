@@ -18,7 +18,7 @@ div {
 h1{
     margin-left: 3%;
     font-size:120px ;
-    color:red;
+    color:#f95d2c;
 
 }
 h3{
@@ -26,7 +26,7 @@ h3{
     margin-right: 5%;
     position: sticky;
     bottom:40px;
-    color:rgb(255, 0, 0)
+    color:#f95d2c;
 }
 
 p{

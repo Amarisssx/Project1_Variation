@@ -9,6 +9,7 @@ h3{
     color:#6d84bb;
     margin-left: 52%;
 }
+
 div{
     margin-left:50%;
     background-color: white;
@@ -34,3 +35,23 @@ div{
 .six{
     border-left: 10px #f1f4fc solid;
 }
+.link{
+    position: fixed;
+    top:30px;
+    right: 100px;
+
+
+}
+a:link {
+    text-decoration:none;
+    color: rgb(196, 194, 194);
+}   
+a:visited {
+    text-decoration:none;
+    color: rgb(62, 62, 62);
+} 
+a:hover {
+    text-decoration:underline;
+    color: rgb(255, 137, 40)
+}   
+a:active {text-decoration:underline;} 
